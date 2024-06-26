@@ -85,7 +85,7 @@ export default function Header() {
                                         <i className="fa-solid fa-mobile-button fs-30 text-white opacity-75"></i>
                                     </div>
                                     <div className="flex-grow-1 ms-3">
-                                        <h6 className="fs-15 fw-semibold help-info__title mb-0 text-white">+ 971 55 774 6715</h6>
+                                        <h6 className="fs-15 fw-semibold help-info__title mb-0 text-white">+ 971 58 57X XXXX</h6>
                                         <p className="sub-text mb-0 fs-14">Contact Us For Help</p>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ export default function Header() {
                         {/*  /. End Navbar Collapse */}
                         <div className="d-flex gap-1 ms-lg-5">
                             {/* Start Cart Button */}
-                            <Link href="https://api.whatsapp.com/send?phone=971557746715" className="align-items-center btn d-none cart-button d-xl-flex ms-2 ms-lg-0" target="_blank">
+                            <Link href="https://api.whatsapp.com/send?phone=971585791102" className="align-items-center btn d-none cart-button d-xl-flex ms-2 ms-lg-0" target="_blank">
                                 <span className="align-items-center cart-quantity d-flex fw-bold justify-content-center ms-2 rounded-circle"><i className="fab fa-whatsapp"></i></span>
                                 <span className="ms-2">Whatsapp</span>
                             </Link>

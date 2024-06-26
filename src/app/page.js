@@ -351,20 +351,18 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                  <Link href="agent-details">
                     <img
                       src="assets/img/avatar/01.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
-                  </Link>
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-umbrella-beach" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="agent-details">Malibu beach</Link>
+                 Malibu beach
                 </h5>
                 {/* <div>Atomic Properties</div> */}
               </div>
@@ -379,20 +377,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                  <Link href="agent-details">
+                  
                     <img
                       src="assets/img/avatar/02.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
-                  </Link>
+                  
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-swimming-pool" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="agent-details">Water Park</Link>
+                  Water Park
                 </h5>
                 {/* <div>Property Advisor</div> */}
               </div>
@@ -407,20 +405,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                  <Link href="agent-details">
+                 
                     <img
                       src="assets/img/avatar/03.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
-                  </Link>
+                
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-dumbbell" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="agent-details">Gym areas</Link>
+                 Gym areas
                 </h5>
                 {/* <div>Property Manager</div> */}
               </div>
@@ -435,20 +433,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                  <Link href="agent-details">
+                 
                     <img
                       src="assets/img/avatar/04.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
-                  </Link>
+                
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-tree" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="agent-details">Zen garden</Link>
+                 Zen garden
                 </h5>
                 {/* <div>Property Consultan</div> */}
               </div>
@@ -463,20 +461,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                  <Link href="agent-details">
+                 
                     <img
                       src="assets/img/avatar/05.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
-                  </Link>
+                 
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-water" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="agent-details">Fishing lake</Link>
+                Fishing lake
                 </h5>
                 {/* <div>Property Consultan</div> */}
               </div>
@@ -491,20 +489,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                  <Link href="agent-details">
+                 
                     <img
                       src="assets/img/avatar/06.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
-                  </Link>
+                  
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fab fa-crop" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                  <Link href="agent-details">Petting farm</Link>
+                Petting farm
                 </h5>
                 {/* <div>Property Consultan</div> */}
               </div>
@@ -1389,7 +1387,7 @@ export default function HomeTwo() {
                         type="text"
                         className="form-control"
                         id="firstName"
-                        placeholder="Naeem Khan"
+                        placeholder="Enter Your Name"
                         required
                         name="name"
                       />
@@ -1579,7 +1577,7 @@ export default function HomeTwo() {
                                 type="text"
                                 className="form-control"
                                 id="firstName"
-                                placeholder="Naeem Khan"
+                                placeholder="Enter Your Name"
                                 required
                                 name="name"
                               />
@@ -1700,7 +1698,7 @@ export default function HomeTwo() {
                                 type="text"
                                 className="form-control"
                                 id="firstName"
-                                placeholder="Naeem Khan"
+                                placeholder="Enter Your Name"
                                 required
                                 name="name"
                               />

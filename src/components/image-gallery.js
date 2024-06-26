@@ -109,7 +109,7 @@ export default function ImageGallery() {
                                 />
                             </a>
                             <Link
-                               data-bs-toggle="modal" data-bs-target="#cartEmpty" href="/" 
+                                data-bs-toggle="modal" data-bs-target="#cartEmpty" href="/"
                                 className=" overflow-hidden position-relative rounded-4 w-100 box-ratio-2-3 d-block"
                                 style={{ display: 'block', position: 'relative' }}
                             >
@@ -170,16 +170,16 @@ export default function ImageGallery() {
             <div className='container'>
                 <div className="position-relative">
                     <div className="row">
-                    <h4 className="fw-semibold mb-4 text-capitalize">Floor <span className="underline position-relative text-warning">Plans</span></h4>
+                        <h4 className="fw-semibold mb-4 text-capitalize">Floor <span className="underline position-relative text-warning">Plans</span></h4>
 
-                        <div className="col-md-10 offset-md-1">
+                        <div className="col-md-6">
                             <div className="mb-5 border-bottom pb-5">
                                 {/* Start Title */}
                                 {/* /.End Title */}
                                 {/* Start Image */}
                                 <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
                                     <div className="carousel-inner">
-                                        <div className={`carousel-item active`}>
+                                        <div className="carousel-item active">
                                             <img
                                                 src={`assets/img/fp-natura.jpg`}
                                                 className="d-block w-100"
@@ -202,6 +202,7 @@ export default function ImageGallery() {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 }
