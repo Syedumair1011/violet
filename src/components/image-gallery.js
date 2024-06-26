@@ -61,23 +61,23 @@ export default function ImageGallery() {
                         <div id="propertyCarousel-2" className="column-start carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <a href="assets/img/properties/1718615482178-damac-natura-4.jpg" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
-                                        <img src="assets/img/properties/1718615482178-damac-natura-4.jpg" className="d-block w-100" alt="Property Image" />
+                                    <a href="assets/img/properties/1718615482178-damac-natura-4.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
+                                        <img src="assets/img/properties/1718615482178-damac-natura-4.webp" className="d-block w-100" alt="Property Image" />
                                     </a>
                                 </div>
                                 <div className="carousel-item" >
-                                    <a href="assets/img/properties/1718615482227-damac-natura.jpg" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
-                                        <img src="assets/img/properties/1718615482227-damac-natura.jpg" className="d-block w-100" alt="Property Image" />
+                                    <a href="assets/img/properties/1718615482227-damac-natura.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
+                                        <img src="assets/img/properties/1718615482227-damac-natura.webp" className="d-block w-100" alt="Property Image" />
                                     </a>
                                 </div>
                                 <div className="carousel-item" >
-                                    <a href="assets/img/properties/1718615482196-damac-natura-2.jpg" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
-                                        <img src="assets/img/properties/1718615482196-damac-natura-2.jpg" className="d-block w-100" alt="Property Image" />
+                                    <a href="assets/img/properties/1718615482196-damac-natura-2.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
+                                        <img src="assets/img/properties/1718615482196-damac-natura-2.webp" className="d-block w-100" alt="Property Image" />
                                     </a>
                                 </div>
                                 <div className="carousel-item" >
-                                    <a href="assets/img/properties/1718615482211-damac-natura-5.jpg" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
-                                        <img src="assets/img/properties/1718615482211-damac-natura-5.jpg" className="d-block w-100" alt="Property Image" />
+                                    <a href="assets/img/properties/1718615482211-damac-natura-5.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
+                                        <img src="assets/img/properties/1718615482211-damac-natura-5.webp" className="d-block w-100" alt="Property Image" />
                                     </a>
                                 </div>
                             </div>

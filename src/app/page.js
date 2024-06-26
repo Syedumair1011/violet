@@ -11,6 +11,7 @@ import React, { useState } from 'react';
 import { useEffect, useRef } from 'react';
 import Swal from 'sweetalert2';
 import Link from "next/link";
+import WidgetScript from "@/components/Whatsapp";
 
 export default function HomeTwo() {
 
@@ -110,14 +111,14 @@ export default function HomeTwo() {
             <div className="carousel-inner h-100">
               <div className="carousel-item active h-100">
                 <img
-                  src="assets/img/about/natura-d2.jpg"
+                  src="/assets/img/header/01.webp"
                   alt="Property 1"
                   className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0"
                 />
               </div>
               <div className="carousel-item h-100">
                 <img
-                  src="/assets/img/header/02.jpg"
+                  src="/assets/img/header/02.webp"
                   alt="Property 2"
                   className="h-100 object-fit-cover position-absolute w-100 oblique-image top-0"
                 />
@@ -237,7 +238,7 @@ export default function HomeTwo() {
                     <div className="position-relative">
                       <div className="" />
                       <img
-                        src="assets/img/offplan/01.jpg"
+                        src="assets/img/offplan/01.webp"
                         className="img-fluid rounded-3 position-relative"
                         alt=""
                       />
@@ -248,7 +249,7 @@ export default function HomeTwo() {
                       {/* Image */}
                       <div className="col-12">
                         <img
-                          src="assets/img/about/02.jpg"
+                          src="assets/img/about/02.webp"
                           className="img-fluid rounded-3"
                           alt=""
                         />
@@ -256,7 +257,7 @@ export default function HomeTwo() {
                       {/* Image */}
                       <div className="col-12">
                         <img
-                          src="assets/img/about/03.jpg"
+                          src="assets/img/about/03.webp"
                           className="img-fluid rounded-3"
                           alt=""
                         />
@@ -352,7 +353,7 @@ export default function HomeTwo() {
                   {/* Start Avatar Image */}
                   <Link href="agent-details">
                     <img
-                      src="assets/img/avatar/01.jpg"
+                      src="assets/img/avatar/01.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -380,7 +381,7 @@ export default function HomeTwo() {
                   {/* Start Avatar Image */}
                   <Link href="agent-details">
                     <img
-                      src="assets/img/avatar/02.jpg"
+                      src="assets/img/avatar/02.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -408,7 +409,7 @@ export default function HomeTwo() {
                   {/* Start Avatar Image */}
                   <Link href="agent-details">
                     <img
-                      src="assets/img/avatar/03.jpg"
+                      src="assets/img/avatar/03.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -436,7 +437,7 @@ export default function HomeTwo() {
                   {/* Start Avatar Image */}
                   <Link href="agent-details">
                     <img
-                      src="assets/img/avatar/04.jpg"
+                      src="assets/img/avatar/04.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -464,7 +465,7 @@ export default function HomeTwo() {
                   {/* Start Avatar Image */}
                   <Link href="agent-details">
                     <img
-                      src="assets/img/avatar/05.jpg"
+                      src="assets/img/avatar/05.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -492,7 +493,7 @@ export default function HomeTwo() {
                   {/* Start Avatar Image */}
                   <Link href="agent-details">
                     <img
-                      src="assets/img/avatar/06.jpg"
+                      src="assets/img/avatar/06.webp"
                       alt=""
                       className="avatar-img rounded-circle"
                     />
@@ -595,7 +596,7 @@ export default function HomeTwo() {
                 <div className="member-header overflow-hidden position-relative rounded-4">
                   <div className="d-block overflow-hidden position-relative team-avatar-container">
                     <img
-                      src="assets/img/avatar/01-lg.jpg"
+                      src="assets/img/avatar/01-lg.webp"
                       className="img-fluid w-100"
                       alt=""
                     />
@@ -623,7 +624,7 @@ export default function HomeTwo() {
                 <div className="member-header overflow-hidden position-relative rounded-4">
                   <div className="d-block overflow-hidden position-relative team-avatar-container">
                     <img
-                      src="assets/img/avatar/02-lg.jpg"
+                      src="assets/img/avatar/02-lg.webp"
                       className="img-fluid w-100"
                       alt=""
                     />
@@ -652,7 +653,7 @@ export default function HomeTwo() {
                 <div className="member-header overflow-hidden position-relative rounded-4">
                   <div className="d-block overflow-hidden position-relative team-avatar-container">
                     <img
-                      src="assets/img/avatar/03-lg.jpg"
+                      src="assets/img/avatar/03-lg.webp"
                       className="img-fluid w-100"
                       alt=""
                     />
@@ -680,7 +681,7 @@ export default function HomeTwo() {
                 <div className="member-header overflow-hidden position-relative rounded-4">
                   <div className="d-block overflow-hidden position-relative team-avatar-container">
                     <img
-                      src="assets/img/avatar/04-lg.jpg"
+                      src="assets/img/avatar/04-lg.webp"
                       className="img-fluid w-100"
                       alt=""
                     />
@@ -874,7 +875,7 @@ export default function HomeTwo() {
                     {/* Start Property Image */}
                     <div className="property-img card-image-hover overflow-hidden">
                       <img
-                        src={`assets/img/properties/04.jpg`}
+                        src={`assets/img/properties/04.webp`}
                         alt=""
                         className="img-fluid"
                       />
@@ -969,7 +970,7 @@ export default function HomeTwo() {
                     {/* Start Property Image */}
                     <div className="property-img card-image-hover overflow-hidden">
                       <img
-                        src={`assets/img/properties/verona.jpg`}
+                        src={`assets/img/properties/verona.webp`}
                         alt=""
                         className="img-fluid"
                       />
@@ -1064,7 +1065,7 @@ export default function HomeTwo() {
                     {/* Start Property Image */}
                     <div className="property-img card-image-hover overflow-hidden">
                       <img
-                        src={`assets/img/properties/1718615482227-damac-natura.jpg`}
+                        src={`assets/img/properties/1718615482227-damac-natura.webp`}
                         alt=""
                         className="img-fluid"
                       />
@@ -1373,7 +1374,7 @@ export default function HomeTwo() {
                 <div className="col-md-7 pe-xl-5 mb-5 mb-md-0">
                   {/* Start Illustration Image */}
                   <img
-                    src="assets/img/about/natura-d2.jpg"
+                    src="assets/img/header/01.webp"
                     alt=""
                     className="img-fluid"
                   />
@@ -1489,7 +1490,7 @@ export default function HomeTwo() {
                     <div className="col-lg-6">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482178-damac-natura-4.jpg"
+                          src="assets/img/properties/1718615482178-damac-natura-4.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1498,7 +1499,7 @@ export default function HomeTwo() {
                     <div className="col-lg-6">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482196-damac-natura-2.jpg"
+                          src="assets/img/properties/1718615482196-damac-natura-2.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1510,7 +1511,7 @@ export default function HomeTwo() {
                     <div className="col-lg-4">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482211-damac-natura-5.jpg"
+                          src="assets/img/properties/1718615482211-damac-natura-5.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1519,7 +1520,7 @@ export default function HomeTwo() {
                     <div className="col-lg-4">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/natura-d2.jpg"
+                          src="assets/img/header/01.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1529,7 +1530,7 @@ export default function HomeTwo() {
                     <div className="col-lg-4">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482211-damac-natura-5.jpg"
+                          src="assets/img/properties/1718615482211-damac-natura-5.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1542,7 +1543,7 @@ export default function HomeTwo() {
                     <div className="col-lg-6">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482227-damac-natura.jpg"
+                          src="assets/img/properties/1718615482227-damac-natura.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1767,6 +1768,7 @@ export default function HomeTwo() {
             </div>
           </div>
         </div>
+        <WidgetScript />
       </div>
     </>
   );
