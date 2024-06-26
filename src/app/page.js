@@ -104,7 +104,7 @@ export default function HomeTwo() {
       <Header />
       {/* Start Hero Header Two */}
       <div className="align-items-center d-flex hero-header hero-header__two overflow-hidden position-relative">
-        <img src="assets/img/png-img/section-bg.png" alt="" className="h-100 object-fit-cover position-absolute w-100 top-0" />
+        <img src="assets/img/png-img/section-bg.webp" alt="" className="h-100 object-fit-cover position-absolute w-100 top-0" />
         {/* Start Oblique */}
         <div className="d-md-block d-none h-100 oblique overflow-hidden position-absolute top-0 custom-carousel-container">
           <div id="propertyCarousel" className="carousel slide h-100" data-bs-ride="carousel">
