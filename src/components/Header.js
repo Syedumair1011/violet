@@ -58,7 +58,7 @@ export default function Header() {
                     <div className="row align-items-center">
                         <div className="col-md-4 col-lg-3 col-xl-4">
                             <Link href="/" className="headerLogo"></Link>
-                            <img src="assets/img/logo-owndxb.png" alt="owndxb.ae" height="40" />
+                            <img src="assets/img/logo-luxury.png" alt="luxury properties" height="50" />
                         </div>
                         <div className="col-md-8 col-lg-9 col-xl-8 d-none d-md-block">
                             <div className="d-flex justify-content-end">
