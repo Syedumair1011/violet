@@ -45,10 +45,9 @@ export default function ImageGallery() {
                             {/* /.End Section Header Title */}
                             {/* Start Section Header Sub Title */}
                             <div className="sub-title fs-16">
-                                It is a long established fact that a reader will be distracted by
-                                the
-                                <br className="d-none d-lg-block" /> readable content of a page
-                                when looking at its layout.
+                            Discover Gallery Violet by DAMAC: luxury residences in Dubai, 
+                                <br className="d-none d-lg-block" /> blending contemporary design with premium amenities.
+                            
                             </div>
                             {/* /.End Section Header Sub Title */}
                         </div>
@@ -60,7 +59,22 @@ export default function ImageGallery() {
                     <div id="gallery-1" className="header-masonry-grid zoom-gallery">
                         <div id="propertyCarousel-2" className="column-start carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
-                                <div className="carousel-item active">
+                            <div className="carousel-item active">
+                                    <a href="assets/img/properties/D2-violet-2.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
+                                        <img src="assets/img/properties/D2-violet-2.webp" className="d-block w-100" alt="Property Image" />
+                                    </a>
+                                </div>
+                                <div className="carousel-item">
+                                    <a href="assets/img/properties/D2-violet-3.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
+                                        <img src="assets/img/properties/D2-violet-3.webp" className="d-block w-100" alt="Property Image" />
+                                    </a>
+                                </div>
+                                <div className="carousel-item">
+                                    <a href="assets/img/properties/D2-violet-1.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
+                                        <img src="assets/img/properties/D2-violet-1.webp" className="d-block w-100" alt="Property Image" />
+                                    </a>
+                                </div>
+                                <div className="carousel-item">
                                     <a href="assets/img/properties/1718615482178-damac-natura-4.webp" className="grid-images-item-wrap overflow-hidden position-relative rounded-4 h-100 w-100 d-block">
                                         <img src="assets/img/properties/1718615482178-damac-natura-4.webp" className="d-block w-100" alt="Property Image" />
                                     </a>
@@ -167,42 +181,6 @@ export default function ImageGallery() {
                 </div>
 
             </div>
-            <div className='container'>
-                <div className="position-relative">
-                    <div className="row">
-                        <h4 className="fw-semibold mb-4 text-capitalize">Floor <span className="underline position-relative text-warning">Plans</span></h4>
-
-                        <div className="col-md-6">
-                            <div className="mb-5 border-bottom pb-5">
-                                {/* Start Title */}
-                                {/* /.End Title */}
-                                {/* Start Image */}
-                                <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
-                                    <div className="carousel-inner">
-                                        <div className="carousel-item active">
-                                            <img
-                                                src={`assets/img/fp-natura.jpg`}
-                                                className="d-block w-100"
-                                                alt={`Carousel Image`}
-                                            />
-                                        </div>
-                                    </div>
-                                    <button className="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span className="visually-hidden">Previous</span>
-                                    </button>
-                                    <button className="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span className="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                {/* /.End Image */}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     );
 }

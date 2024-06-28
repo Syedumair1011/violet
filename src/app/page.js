@@ -12,6 +12,7 @@ import { useEffect, useRef } from 'react';
 import Swal from 'sweetalert2';
 import Link from "next/link";
 import WidgetScript from "@/components/Whatsapp";
+import FloorPlans from "@/components/floor-plan";
 
 export default function HomeTwo() {
 
@@ -221,10 +222,9 @@ export default function HomeTwo() {
                 {/* /.End Section Header Title */}
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
-                  It is a long established fact that a reader will be distracted by
-                  the
-                  <br className="d-none d-lg-block" /> readable content of a page
-                  when looking at its layout.
+                Discover DAMAC Violet luxury townhouses with premium amenities in prime Dubai.
+                  <br className="d-none d-lg-block" /> Invest in contemporary living by DAMAC Properties.
+                  
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
@@ -249,7 +249,7 @@ export default function HomeTwo() {
                       {/* Image */}
                       <div className="col-12">
                         <img
-                          src="assets/img/about/02.webp"
+                          src="assets/img/about/D2-violet-2.webp"
                           className="img-fluid rounded-3"
                           alt=""
                         />
@@ -331,10 +331,8 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                  It is a long established fact that a reader will be distracted by
-                  the
-                  <br className="d-none d-lg-block" /> readable content of a page
-                  when looking at its layout.
+                Enjoy a vibrant lifestyle with a gym, swimming pool, landscaped gardens, 
+                  <br className="d-none d-lg-block" /> children's play areas, and 24/7 security.
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
@@ -531,6 +529,7 @@ export default function HomeTwo() {
       <br />
       <br />
       <ImageGallery />
+      <FloorPlans />
       <div className="map-content" id="location">
         {/* Start Map */}
         <div className="map border-bottom">
@@ -564,9 +563,8 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                  Our guests always travel the world in style. Mention @Kempinski
-                  <br className="d-none d-lg-block" /> on Instagram for a chance
-                  to be featured!
+                Discover the vibrant neighborhood and nearby landmarks
+                  <br className="d-none d-lg-block" /> that make this location ideal for modern living.
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
@@ -849,9 +847,8 @@ export default function HomeTwo() {
                     {/* Start Section Header Sub Title */}
                     <div className="sub-title fs-16">
 
-                      It is a long established fact that a reader will be distracted by
-                      the
-                      <br className="d-none d-lg-block" /> readable content of a page
+                    Explore our curated selection of featured properties, 
+                      <br className="d-none d-lg-block" /> each offering unique charm and exceptional value.
                       when looking at its layout.
                     </div>
                     {/* /.End Section Header Sub Title */}
@@ -937,7 +934,7 @@ export default function HomeTwo() {
                             Email
                           </button>
                         </Link>
-                        <Link href="https://wa.me/971557746715" passHref target="_blank">
+                        <Link href="https://wa.me/971585791102" passHref target="_blank">
                           <button
                             type="button"
                             className="border-0 btn btn-outline-default btn-sm fw-medium shadow-sm"
@@ -1032,7 +1029,7 @@ export default function HomeTwo() {
                             Email
                           </button>
                         </Link>
-                        <Link href="https://wa.me/971557746715" passHref target="_blank">
+                        <Link href="https://wa.me/971585791102" passHref target="_blank">
                           <button
                             type="button"
                             className="border-0 btn btn-outline-default btn-sm fw-medium shadow-sm"
@@ -1127,7 +1124,7 @@ export default function HomeTwo() {
                             Email
                           </button>
                         </Link>
-                        <Link href="https://wa.me/971557746715" passHref target="_blank">
+                        <Link href="https://wa.me/971585791102" passHref target="_blank">
                           <button
                             type="button"
                             className="border-0 btn btn-outline-default btn-sm fw-medium shadow-sm"
@@ -1241,10 +1238,8 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                  It is a long established fact that a reader will be distracted by
-                  the
-                  <br className="d-none d-lg-block" /> readable content of a page
-                  when looking at its layout.
+                Explore our diverse range of properties with expert guidance
+                  <br className="d-none d-lg-block" />  to find your dream home confidently and easily.
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
@@ -1356,10 +1351,8 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                  It is a long established fact that a reader will be distracted
-                  by the
-                  <br className="d-none d-lg-block" /> readable content of a page
-                  when looking at its layout.
+                Reach out to us today and let's start your journey 
+                  <br className="d-none d-lg-block" />towards your dream property.
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
@@ -1488,7 +1481,7 @@ export default function HomeTwo() {
                     <div className="col-lg-6">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482178-damac-natura-4.webp"
+                          src="assets/img/properties/D2-violet-1.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1497,7 +1490,7 @@ export default function HomeTwo() {
                     <div className="col-lg-6">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482196-damac-natura-2.webp"
+                          src="assets/img/properties/D2-violet-2.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
@@ -1509,7 +1502,7 @@ export default function HomeTwo() {
                     <div className="col-lg-4">
                       <div className="position-relative h-100">
                         <img
-                          src="assets/img/properties/1718615482211-damac-natura-5.webp"
+                          src="assets/img/properties/D2-violet-3.webp"
                           alt=""
                           className="img-fluid h-100 w-100 object-fit-cover"
                         />
