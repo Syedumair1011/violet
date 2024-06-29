@@ -17,30 +17,62 @@ import FloorPlans from "@/components/floor-plan";
 export default function HomeTwo() {
 
   const [showFadeModal, setShowFadeModal] = useState(false);
-    const fadeModalRef = useRef(null);
+  const [showFadeModal2, setShowFadeModal2] = useState(false);
+  const [showCloseButton, setShowCloseButton] = useState(false);
+  const fadeModalRef = useRef(null);
+  const fadeModalRef2 = useRef(null);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setShowFadeModal(true);
-        }, 10000); // Show modal after 10 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowFadeModal(true);
+    }, 7000); // Show modal after 10 seconds
 
-        return () => clearTimeout(timer); // Cleanup the timer if the component unmounts
+    return () => clearTimeout(timer); // Cleanup the timer if the component unmounts
 
-    }, []);
+  }, []);
 
-    useEffect(() => {
-        // Function to show the fade modal using useRef
-        const showFadeModalFunction = () => {
-            if (fadeModalRef.current && typeof window.bootstrap !== 'undefined') {
-                const bootstrapFadeModal = new window.bootstrap.Modal(fadeModalRef.current);
-                bootstrapFadeModal.show();
-            }
-        };
+  useEffect(() => {
+    // Function to show the fade modal using useRef
+    const showFadeModalFunction = () => {
+      if (fadeModalRef.current && typeof window.bootstrap !== 'undefined') {
+        const bootstrapFadeModal = new window.bootstrap.Modal(fadeModalRef.current);
+        bootstrapFadeModal.show();
+      }
+    };
 
-        if (showFadeModal) {
-            showFadeModalFunction();
-        }
-    }, [showFadeModal]);
+    if (showFadeModal) {
+      showFadeModalFunction();
+    }
+  }, [showFadeModal]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowFadeModal2(true);
+    }, 18000); // Show modal after 10 seconds
+
+    return () => clearTimeout(timer); // Cleanup the timer if the component unmounts
+
+  }, []);
+
+  useEffect(() => {
+    // Function to show the fade modal using useRef
+    const showFadeModalFunction2 = () => {
+      if (fadeModalRef2.current && typeof window.bootstrap !== 'undefined') {
+        const bootstrapFadeModal2 = new window.bootstrap.Modal(fadeModalRef2.current);
+        bootstrapFadeModal2.show();
+      }
+    };
+
+    let timeout;
+    if (showFadeModal2) {
+      timeout = setTimeout(() => {
+        setShowCloseButton(true);
+      }, 3000);
+    } else {
+      setShowCloseButton(false);
+    }
+    return () => clearTimeout(timeout);
+  }, [showFadeModal2]);
 
 
   const fileName = 'Brochure_Violet.pdf';
@@ -222,9 +254,9 @@ export default function HomeTwo() {
                 {/* /.End Section Header Title */}
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
-                Discover DAMAC Violet luxury townhouses with premium amenities in prime Dubai.
+                  Discover DAMAC Violet luxury townhouses with premium amenities in prime Dubai.
                   <br className="d-none d-lg-block" /> Invest in contemporary living by DAMAC Properties.
-                  
+
                 </div>
                 {/* /.End Section Header Sub Title */}
               </div>
@@ -331,7 +363,7 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                Enjoy a vibrant lifestyle with a gym, swimming pool, landscaped gardens, 
+                  Enjoy a vibrant lifestyle with a gym, swimming pool, landscaped gardens,
                   <br className="d-none d-lg-block" /> children's play areas, and 24/7 security.
                 </div>
                 {/* /.End Section Header Sub Title */}
@@ -349,18 +381,18 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                    <img
-                      src="assets/img/avatar/01.webp"
-                      alt=""
-                      className="avatar-img rounded-circle"
-                    />
+                  <img
+                    src="assets/img/avatar/01.webp"
+                    alt=""
+                    className="avatar-img rounded-circle"
+                  />
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-umbrella-beach" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                 Malibu beach
+                  Malibu beach
                 </h5>
                 {/* <div>Atomic Properties</div> */}
               </div>
@@ -375,13 +407,13 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                  
-                    <img
-                      src="assets/img/avatar/02.webp"
-                      alt=""
-                      className="avatar-img rounded-circle"
-                    />
-                  
+
+                  <img
+                    src="assets/img/avatar/02.webp"
+                    alt=""
+                    className="avatar-img rounded-circle"
+                  />
+
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-swimming-pool" />
@@ -403,20 +435,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                 
-                    <img
-                      src="assets/img/avatar/03.webp"
-                      alt=""
-                      className="avatar-img rounded-circle"
-                    />
-                
+
+                  <img
+                    src="assets/img/avatar/03.webp"
+                    alt=""
+                    className="avatar-img rounded-circle"
+                  />
+
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-dumbbell" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                 Gym areas
+                  Gym areas
                 </h5>
                 {/* <div>Property Manager</div> */}
               </div>
@@ -431,20 +463,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                 
-                    <img
-                      src="assets/img/avatar/04.webp"
-                      alt=""
-                      className="avatar-img rounded-circle"
-                    />
-                
+
+                  <img
+                    src="assets/img/avatar/04.webp"
+                    alt=""
+                    className="avatar-img rounded-circle"
+                  />
+
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-tree" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                 Zen garden
+                  Zen garden
                 </h5>
                 {/* <div>Property Consultan</div> */}
               </div>
@@ -459,20 +491,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                 
-                    <img
-                      src="assets/img/avatar/05.webp"
-                      alt=""
-                      className="avatar-img rounded-circle"
-                    />
-                 
+
+                  <img
+                    src="assets/img/avatar/05.webp"
+                    alt=""
+                    className="avatar-img rounded-circle"
+                  />
+
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fas fa-water" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                Fishing lake
+                  Fishing lake
                 </h5>
                 {/* <div>Property Consultan</div> */}
               </div>
@@ -487,20 +519,20 @@ export default function HomeTwo() {
               >
                 <div className="avatar rounded-circle p-1 border border-warning">
                   {/* Start Avatar Image */}
-                 
-                    <img
-                      src="assets/img/avatar/06.webp"
-                      alt=""
-                      className="avatar-img rounded-circle"
-                    />
-                  
+
+                  <img
+                    src="assets/img/avatar/06.webp"
+                    alt=""
+                    className="avatar-img rounded-circle"
+                  />
+
                   {/* /.End Avatar Image */}
                   <div className="align-items-center avatar-badge bg-warning d-flex justify-content-center position-absolute rounded-circle text-white">
                     <i className="fab fa-crop" />
                   </div>
                 </div>
                 <h5 className="mt-3 mb-1">
-                Petting farm
+                  Petting farm
                 </h5>
                 {/* <div>Property Consultan</div> */}
               </div>
@@ -563,7 +595,7 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                Discover the vibrant neighborhood and nearby landmarks
+                  Discover the vibrant neighborhood and nearby landmarks
                   <br className="d-none d-lg-block" /> that make this location ideal for modern living.
                 </div>
                 {/* /.End Section Header Sub Title */}
@@ -847,7 +879,7 @@ export default function HomeTwo() {
                     {/* Start Section Header Sub Title */}
                     <div className="sub-title fs-16">
 
-                    Explore our curated selection of featured properties, 
+                      Explore our curated selection of featured properties,
                       <br className="d-none d-lg-block" /> each offering unique charm and exceptional value.
                       when looking at its layout.
                     </div>
@@ -1238,7 +1270,7 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                Explore our diverse range of properties with expert guidance
+                  Explore our diverse range of properties with expert guidance
                   <br className="d-none d-lg-block" />  to find your dream home confidently and easily.
                 </div>
                 {/* /.End Section Header Sub Title */}
@@ -1351,7 +1383,7 @@ export default function HomeTwo() {
                 {/* Start Section Header Sub Title */}
                 <div className="sub-title fs-16">
 
-                Reach out to us today and let's start your journey 
+                  Reach out to us today and let's start your journey
                   <br className="d-none d-lg-block" />towards your dream property.
                 </div>
                 {/* /.End Section Header Sub Title */}
@@ -1760,6 +1792,28 @@ export default function HomeTwo() {
           </div>
         </div>
         <WidgetScript />
+      </div>
+      <div
+        className={`modal fade ${showFadeModal2 ? 'show' : ''}`}
+        tabIndex="-1"
+        role="dialog"
+        style={{ display: showFadeModal2 ? 'block' : 'none', transition: 'opacity 1s' }}
+        ref={fadeModalRef2}
+      >
+        <div className="modal-dialog modal-dialog-centered modal-md">
+          <div className="modal-content" style={{ border: 'none', borderRadius: '0', margin: '0' }}>
+            <div className="">
+              {showCloseButton && (
+                <button
+                  type="button"
+                  className="btn-close"
+                  onClick={() => setShowFadeModal2(false)}
+                />
+              )}
+              <img src="assets/img/about/violet.png" className="img-fluid w-100" alt="Violet" style={{ margin: '0' }} />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
