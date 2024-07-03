@@ -17,7 +17,7 @@ export const metadata = {
     apple: ['/favicon.png?v4'],
     shortcut: ['/favicon.png.png']
   },
-  keywords: 'Damac 4-bedroom townhouses, Damac Hills 2, luxury living, spacious townhouses, contemporary designs, premium finishes, world-class amenities, Dubai, family-friendly community, investors, serenity and convenience, vibrant community lifestyle, lush green landscapes, recreational facilities, easy access to major highways, top attractions'
+  keywords: 'Damac 4-bedroom townhouses, Damac Hills 2, luxury living, spacious townhouses, contemporary designs, premium finishes, world-class amenities, family-friendly community, investors, serenity and convenience, vibrant community lifestyle, lush green landscapes, recreational facilities, easy access to major highways, top attractions'
 };
 
 export default function RootLayout({ children }) {
