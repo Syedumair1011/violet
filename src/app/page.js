@@ -1791,41 +1791,9 @@ export default function HomeTwo() {
             </div>
           </div>
         </div>
-        
       </div>
-      
-      <div
-        className={`modal fade ${showFadeModal2 ? 'show' : ''}`}
-        tabIndex="-1"
-        role="dialog"
-        style={{ display: showFadeModal2 ? 'block' : 'none', transition: 'opacity 1s' }}
-        ref={fadeModalRef2}
-      >
-         
-        <div className="modal-dialog modal-dialog-centered modal-md">
-          
-          <div className="modal-content" style={{ border: 'none', borderRadius: '0', margin: '0' }}>
-          {showCloseButton && (
-                <div className="modal-header">
-                <div className="d-flex align-items-center">
-                  <button
-                  type="button"
-                  className="btn-close"
-                  onClick={() => setShowFadeModal2(false)}
-                />
-                </div>
-              </div>
-              )}
-            <div className="">
-             
-              <Link href="https://wa.me/971585791102" passHref target="_blank">
-              <img src="assets/img/about/violet.png" className="img-fluid w-100" alt="Violet" style={{ margin: '0' }} />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      
+
+
     </>
   );
 }
