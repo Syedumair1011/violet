@@ -5,6 +5,8 @@ import './globals.css'
 import { Inter_Tight } from 'next/font/google'
 import { AOSInit } from './aoshook/aoshook';
 import ImportBs from './importBs';
+import Script from 'next/script';
+
 
 const inter = Inter_Tight({ subsets: ['latin'] })
 export const metadata = {
@@ -19,12 +21,27 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
- 
+
   return (
     <html lang="en">
-      <AOSInit/>
-      <body className={inter.className}>  
-      <ImportBs/>
+      <AOSInit />
+      <body className={inter.className}>
+        <ImportBs />
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=AW-16626466176`}
+        />
+        <Script
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16626466176');
+        `,
+          }}
+        />
         <div>{children}</div>
       </body>
     </html>
