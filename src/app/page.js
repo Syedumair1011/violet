@@ -187,7 +187,7 @@ export default function HomeTwo() {
                     </div>
                     <div className="media-body">
                       <h5 className="fs-18 fw-semibold mb-0 work-title">
-                        1.8 Million
+                        1.8 Millions
                       </h5>
                       <p>Starting Price</p>
                       {/* <div class="work-sub_title text-muted">Lorem Ipsum is simply</div> */}
