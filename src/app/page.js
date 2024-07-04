@@ -13,6 +13,7 @@ import Swal from 'sweetalert2';
 import Link from "next/link";
 import WidgetScript from "@/components/Whatsapp";
 import FloorPlans from "@/components/floor-plan";
+import { sendGTMEvent } from '@next/third-parties/google'
 
 export default function HomeTwo() {
 
@@ -1655,6 +1656,7 @@ export default function HomeTwo() {
                             <button
                               type="submit"
                               className="btn btn-primary btn-lg d-inline-flex hstack gap-2"
+                              onClick={() => sendGTMEvent({ event: 'buttonClicked', value: 'Some One Form Submitted' })}
                             >
                               <span>Send message</span>
                               <span className="vr" />
@@ -1776,6 +1778,7 @@ export default function HomeTwo() {
                             <button
                               type="submit"
                               className="btn btn-primary btn-lg d-inline-flex hstack gap-2"
+                              onClick={() => sendGTMEvent({ event: 'buttonClicked', value: 'Some One Form Submitted' })}
                             >
                               <span>Send message</span>
                               <span className="vr" />
