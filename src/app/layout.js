@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ImportBs />
         <div>{children}</div>
-        <GoogleTagManager gtmId="G-MERPMJTGVD" />
+        <GoogleTagManager gtmId="GTM-K3G7FFWJ" />
       </body>
     </html>
   )
