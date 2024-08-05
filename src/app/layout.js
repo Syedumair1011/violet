@@ -29,21 +29,6 @@ export default function RootLayout({ children }) {
       <AOSInit />
       <body className={inter.className}>
         <ImportBs />
-        {/* <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=AW-16626466176`}
-        />
-        <Script
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16626466176');
-        `,
-          }}
-        /> */}
         <div>{children}</div>
         <GoogleTagManager gtmId="G-MERPMJTGVD" />
       </body>
