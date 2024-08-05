@@ -178,7 +178,7 @@ export default function HomeTwo() {
                 Violet by DAMAC
               </div>
               <h1 className="hero-header_title fw-bold mb-5 display-5">
-                4 bedroom <span className="underline position-relative text-warning">townhouses</span><br className="d-none d-md-block" /> starting from AED 1.82 million* / $ 4.96 million 
+                4 bedroom <span className="underline position-relative text-warning">townhouses</span><br className="d-none d-md-block" /> starting from AED 1.82 million* /<br className="d-none d-md-block" /> $ 4.96 million 
               </h1>
               <div className="align-items-center g-xl-5 gx-3 gy-3 row mt-3">
                 <div className="col-auto">
